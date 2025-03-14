@@ -1,0 +1,27 @@
+{
+  "name": "commit-journal",
+  "version": "1.0.0",
+  "description": "AI-enhanced journaling system based on the COMMIT framework",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-validator": "^7.0.1",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
